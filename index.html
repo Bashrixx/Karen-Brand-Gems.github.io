@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Karen Brand Limited">
+    <meta name="description" content="We are dedicated to sourcing and supplying the highest quality precious and semi-precious gemstones, metals, minerals, and crystals.">
+    <meta name="keywords" content="karen, karen brand, karen brand gems, gemstone, gemstone seller, natural gemstones, handcrafted gemstones, rough gemstones, precious gemstones, semi-precious gemstones, wholesale gemstones, gemstone shop, gemstone buyer, unique gemstones, gemstone cuts, gemstone supplier, loose gemstones, ethically sourced gemstones, buy gemstones, gemstone jewellery shop, gemstone company, gemstone companies, gemstone properties, gemstone types, gemstone collection, gemstone sizes, diamond seller, affordable gemstones, cheap gemstones, expensive gemstones, gemstone wholesaler, gems">
+    <base target="_self">
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <title>Karen Brand Gems</title>
+</head>
+<body>
+    <div class="top-bar">
+        <div class="socialstop">
+            <a href="https://wwww.facebook.com/gemstonesellerLizzie" target="_blank"><img src="images/Facebook.png" alt="Facebook"></a>
+            <a href="https://x.com/KarenBrandGems" target="_blank"><img src="images/xblack.png" alt="X"></a>
+            <a href="https://www.instagram.com/karenbrandgems" target="_blank"><img src="images/Instagram.png" alt="Instagram"></a>
+            <a href="https://www.linkedin.com/in/karenbrandgems" target="_blank"><img src="images/LinkedIn.png" alt="LinkedIn"></a>
+            <a href="https://u.wechat.com/kM4ZOzhhgsNrnhegSBgsy-Y" target="_blank"><img src="images/wechat2.png" alt="WeChat"></a>
+            <!-- <a href="https://youtube.com/@lizakaren389" target="_blank"><img src="images/YouTube.png" alt="YouTube" id="youtlogo1"></a> -->
+        </div>
+        <div class="site-name"><a href="index.html">Karen Brand Gems</a></div>
+        <div class="contact-link"><button class="contact-button" onclick="document.getElementById('footerlst').scrollIntoView({ behavior: 'smooth' });">Contact Us</button></div>
+    </div>
+    <nav class="navbar">
+        <div class="logo">
+            <a href="index.html"><img src="images/logo.jpg" alt="Gemstone Logo"></a>
+        </div>
+        <button class="menu-toggle" id="menuToggle">☰</button>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="gemstones.html">Gemstones</a></li>
+            <li><a href="minerals.html">Metals&Crystals</a></li>
+            <li class="dropdown">
+                <a class="dropbutton">About</a>
+                <div class="dropdown-content">
+                    <a href="about.html">About Us</a>
+                    <a href="#" id="comppoli">Company Policies</a>
+                </div>
+            </li>
+            <!--
+            <li>
+                <div class="search-container">
+                    <input type="text" id="searchBar" placeholder="Search...">
+                    <img class="search-icon" src="images/search.jpg">
+                </div>
+            </li>
+            -->
+        </ul>
+    </nav>
+
+    <header class="hero-section">
+        <div class="carousel">
+            <div class="slides">
+                <div class="slide active">
+                    <img src="images/wallpaper7.jpg" alt="Gemstone 1" id="w1">
+                    <div class="hero-content">
+                        <h1>Welcome to Our Gemstone Company</h1>
+                        <p>Discover the finest gemstones sourced ethically from around the world.</p>
+                        <button class="cta-button" onclick="document.querySelector('.collection-section').scrollIntoView({ behavior: 'smooth' });">Explore Now</button>
+                    </div>
+                </div>
+                <div class="slide">
+                    <img src="images/wallpaper8.jpg" alt="Gemstone 2">
+                    <div class="hero-content">
+                        <h1>Gemstones</h1>
+                        <p>Find the rarest and most exquisite gemstones in our collection.</p>
+                        <button class="cta-button" onclick="window.location.href='gemstones.html'">View Collection</button>
+                    </div>
+                </div>
+                <div class="slide cimg3">
+                    <img src="images/diamonds2.jpg" alt="Gemstone 3" style="object-fit: cover; height: 480px;">
+                    <div class="hero-content">
+                        <h1>Minerals / Crystals</h1>
+                        <p>Explore our range of handcrafted gemstone jewelry.</p>
+                        <button class="cta-button" onclick="window.location.href='minerals.html'">View Collection</button>
+                    </div>
+                </div>
+                <div class="slide cimg3">
+                    <img src="images/Pic home.jpg" alt="Gemstone 4" style="object-fit: cover; height: 480px;">
+                    <div class="hero-content">
+                        <h1>About Us</h1>
+                        <p>Learn about our company, how we mine, pack and ship our gemstones.</p>
+                        <button class="cta-button" onclick="window.location.href='about.html'">Learn More</button>
+                    </div>
+                </div>
+                <div class="slide">
+                    <img src="images/Pic 11.jpg" alt="Gemstone 5">
+                    <div class="hero-content">
+                        <h1>Interested?</h1>
+                        <p>Reach out to us and get your order as soon as possible</p>
+                        <button class="cta-button" onclick="document.getElementById('footerlst').scrollIntoView({ behavior: 'smooth' });">Contact Us</button>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-button prev" onclick="moveSlide(-1)">&#10094;</button>
+            <button class="carousel-button next" onclick="moveSlide(1)">&#10095;</button>
+            <div class="dots">
+                <span class="dot active" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+                <span class="dot" onclick="currentSlide(4)"></span>
+                <span class="dot" onclick="currentSlide(5)"></span>
+            </div>
+        </div>
+    </header>
+
+    <section class="collection-section">
+        <h2>Our Collection</h2>
+        <p>We offer a wide range of gemstones, from rough and natural to finely cut and polished. Explore our collection to find the perfect gem for you.</p>
+        <div class="gallery">
+            <a href="gemstones.html" class="gallery-item">
+                <img src="images/emerald3.jpg" alt="Gemstones">
+                <div class="gallery-item-info">
+                    <h3>Gemstones</h3>
+                    <p>Raw beauty, straight from nature.</p>
+                </div>
+            </a>
+            <a href="minerals.html" class="gallery-item">
+                <img src="images/aquamarinecrystals1.jpg" alt="Fine Gemstone">
+                <div class="gallery-item-info">
+                    <h3>Metals / Crystals</h3>
+                    <p>Precision-cut gems for your collection.</p>
+                </div>
+            </a>
+        </div>
+    </section>
+
+    <section class="why-choose-us-section">
+        <h2>Why Choose Us</h2>
+        <p>At Karen Brand Gems, we are committed to providing ethically sourced gemstones of the highest quality. Our team of experts ensures that each gem is handpicked and carefully inspected to meet our rigorous standards. We are also licensed by the Kenya Government Ministry of Mining.</p>
+    </section>
+
+    <section class="videos-section">
+        <div class="video-content video-left">
+            <div class="video">
+                <img src="images/mines5.jpg" alt="Ethical Sourcing" id="mineown1">
+            </div>
+            <div class="content">
+                <h2>Our Mining Sources</h2>
+                <p>We currently source our gemstones from mines in Kenya, Tanzania, Ethiopia, Rwanda, Burundi, Madagascar, and DRC Congo. Each mine adheres to our strict standards of ethical and sustainable practices.</p>
+            </div>
+        </div>
+        <div class="video-content video-right">
+            <div class="content">
+                <h2>Our Packaging Operations</h2>
+                <p>We prioritize responsible gemstone packaging practices, focusing on sustainability and safety of our gemstones. We ensure that our packaging operations have minimal impact on the environment and support the local communities.</p>
+            </div>
+            <div class="video">
+                <img src="images/packaging.jpg" alt="Responsible Mining" id="mineown2">
+            </div>
+        </div>
+    </section>
+
+    <section class="mining-content-section">
+        <h2>Explore Our Products</h2>
+        <div class="mining-contents">
+            <div class="mining-content">
+                <div class="video">
+                    <img src="images/tsavorite1.jpg" alt="Tsavorite" style="width:100%; height:100%; object-fit: cover; border-radius: 20px;">
+                </div>
+                <div class="content">
+                    <p>"Our rough gemstones, including the stunning tsavorite, are directly sourced from the mines and brought to you in their natural, uncut form."</p>
+                    <h3>- Rough Gemstones</h3>
+                </div>
+            </div>
+            <div class="mining-content">
+                <div class="video">
+                    <img src="images/tanzanitecut2.jpg" alt="Tanzanite" style="width:100%; height:100%; object-fit: fill; border-radius: 20px;">
+                </div>
+                <div class="content">
+                    <p>"Our cut gemstones, such as the exquisite tanzanite, are expertly shaped and polished to enhance their natural beauty and brilliance."</p>
+                    <h3>- Cut Gemstones</h3>
+                </div>
+            </div>
+            <div class="mining-content">
+                <div class="video">
+                    <img src="images/tanzanitecrystals6.jpg" alt="Tanzanite Crystals" style="width:100%; height:100%; object-fit: contain; border-radius: 20px;">
+                </div>
+                <div class="content">
+                    <p>"Each crystal, like the captivating tanzanite crystals, is carefully selected for its unique characteristics and exceptional quality."</p>
+                    <h3>- Crystals</h3>
+                </div>
+            </div>
+            <div class="mining-content">
+                <div class="video">
+                    <video controls>
+                        <source src="images/packagingcopper2.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+                <div class="content">
+                    <p>"Our metals, including the versatile copper, are meticulously inspected and processed to meet the highest industry standards."</p>
+                    <h3>- Metals</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--
+    <section class="contact-section" id="contact">
+        <h2>Contact Us</h2>
+        <form action="submit_form.php" method="post" class="contact-form">
+            <div class="name-container">
+                <div class="input-group">
+                    <label for="firstName">First Name</label>
+                    <input type="text" id="firstName" name="firstName" required>
+                </div>
+                <div class="input-group">
+                    <label for="lastName">Last Name</label>
+                    <input type="text" id="lastName" name="lastName" required>
+                </div>
+            </div>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit" class="submit-button">Send Message</button>
+        </form>
+    </section>
+    -->
+    <footer id="footerlst">
+        <div class="footer-content">
+            <div class="footer-links">
+                <a href="index.html">Home</a>
+                |
+                <a href="gemstones.html">Gemstones</a>
+                |
+                <a href="minerals.html">Metals&Crystals</a>
+                |
+                <a href="about.html">About Us</a>
+                |
+                <a href="#">Company Policy</a>
+            </div>
+            <p>Follow us on:</p>
+            <div class="social-links">
+                <a href="https://wwww.facebook.com/gemstonesellerLizzie" target="_blank"><img src="images/Facebook.png" alt="Facebook"></a>
+                <a href="https://x.com/KarenBrandGems" target="_blank"><img src="images/xblack.png" alt="X"></a>
+                <a href="https://www.instagram.com/karenbrandgems" target="_blank"><img src="images/Instagram.png" alt="Instagram"></a>
+                <a href="https://www.linkedin.com/in/karenbrandgems" target="_blank"><img src="images/linkedin.png" alt="LinkedIn"></a>
+                <a href="https://u.wechat.com/kM4ZOzhhgsNrnhegSBgsy-Y" target="_blank"><img src="images/wechat2.png" alt="WeChat"></a>
+                <!-- <a href="https://youtube.com/@lizakaren389" target="_blank"><img src="images/youtube.png" alt="YouTube" id="youtlogo2"></a> -->
+            </div>
+            <div class="footer-address" style="background-color: rgb(22, 22, 22); border-radius: 30px; padding-top: 1px; margin-top: 4px; margin-bottom: 4px;">
+                <p style="margin-top: 12px; padding-bottom: 4px;">To Reach Us:</p>
+                <p style="padding-bottom: 0; margin-bottom: 0;">Call Us On:
+                     <span style="color: rgb(168, 155, 155);">+254-208-000-505 <span style="color: cadetblue;">(Office)</span> , +254-729-842-241 <span style="color: cadetblue;">(Mobile/Whatsapp)</span></span>
+                     <p style="margin: 0; padding: 0;"><span style="color: black;"> OR </span></p> Email Us on : <span style="color: rgb(168, 155, 155);">info@karenbrandgems.com</span>
+                </p>
+                <p>Office Address: 9 WEST, Emirates Building 7th floor, Westlands @ Nairobi, Kenya</p>
+                <p>P.O. Box: 100432-00101 Jamia @ Nairobi , Kenya</p>
+            </div>
+            <p style="color: rgb(116, 114, 114); font-style: italic; padding-top: 15px; padding-bottom: 1px; margin-bottom: 1px;">&copy; 2011-2024 Karen Brand Limited Company. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+</html>
