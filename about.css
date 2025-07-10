@@ -1,3 +1,74 @@
-body{
-    background-color: ivory;
+body {
+  background-color: ivory;
+}
+#tm1 {
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  height: 50vh;
+}
+#tm2 {
+  top: 40%;
+  margin-bottom: 0px;
+}
+#tm3 {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin: 20px auto;
+  object-fit: cover;
+}
+#tm4 {
+  text-align: center;
+}
+#tm5 {
+  object-position: 0% 80%;
+}
+#tm6 {
+  object-position: 90% 60%;
+  height: 300px;
+}
+#tm7 {
+  width: 450px;
+}
+#tm8 {
+  height: 200px;
+}
+#tm9 {
+  line-height: 2.3;
+  font-weight: 400;
+}
+#tm10 {
+  background-color: rgb(22, 22, 22);
+  border-radius: 30px;
+  padding-top: 1px;
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+#tm11 {
+  margin-top: 12px;
+  padding-bottom: 4px;
+}
+#tm12 {
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+.tm13 {
+  color: rgb(168, 155, 155);
+}
+.tm14 {
+  color: cadetblue;
+}
+#tm15 {
+  color: black;
+}
+#tm16 {
+  margin: 0;
+  padding: 0;
+}
+#tm17 {
+  color: rgb(116, 114, 114);
+  font-style: italic;
+  padding-top: 15px;
+  padding-bottom: 1px;
+  margin-bottom: 1px;
 }

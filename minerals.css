@@ -1,3 +1,16 @@
+#mr1{
+    object-position: left;
+}
+#mr2{
+    object-position: 15% 70%;
+}
+#mr3{
+    object-fit: contain; background-color: white;
+}
+#mr4{
+    line-height: 1.4;
+}
+
 .gemstone-cards-section {
     padding: 60px 20px;
     text-align: center;
