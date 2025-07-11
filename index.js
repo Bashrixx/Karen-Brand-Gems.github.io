@@ -61,7 +61,7 @@ document.addEventListener('DOMContentLoaded', function() {
         slideIndex++;
         if (slideIndex > slides.length) {slideIndex = 1}
         slides[slideIndex - 1].style.display = 'block';
-        dots[slideIndex - 1].className += ' active';
+        dots[slideIndex - 1].className.add('active');
     }
 
     window.moveSlide = function(n) {
