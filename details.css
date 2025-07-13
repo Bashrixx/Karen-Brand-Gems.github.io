@@ -24,6 +24,9 @@
   object-position: 0% 36%;
   object-fit: cover;
 }
+#r1{
+  object-fit: scale-down;
+}
 #tc1 {
   margin-top: 0;
   font-size: large;
