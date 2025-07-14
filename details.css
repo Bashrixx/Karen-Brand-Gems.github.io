@@ -25,7 +25,7 @@
   object-fit: cover;
 }
 #r1{
-  object-fit: scale-down;
+  object-fit: contain;
 }
 #tc1 {
   margin-top: 0;
