@@ -69,7 +69,8 @@
   padding: 0;
 }
 #da11 {
-  color: black;
+  color: rgb(31, 80, 2);
+  font-weight: 700;
 }
 #da12 {
   color: rgb(116, 114, 114);
